@@ -14,13 +14,13 @@ int main() {
         
         x=0;
         while(x<=i-1){
-            cout<<i+x;
+            cout<<i-x;
             x++;
         }
         k=i-1;
         
         while(k>=1){
-            cout<<i+k-1;
+            cout<<i-k+1;
             
             k=k-1;
         }
